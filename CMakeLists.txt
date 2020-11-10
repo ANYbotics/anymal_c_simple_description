@@ -5,7 +5,7 @@ find_package(catkin)
 
 catkin_package()
 
-install(DIRECTORY launch urdf config
+install(DIRECTORY launch urdf config meshes
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
